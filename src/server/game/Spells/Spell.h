@@ -389,8 +389,6 @@ class Spell
 
         static uint32 GetCCDelay(SpellInfo const* _spell);
 
-        static uint32 GetCCDelay(SpellInfo const* _spell);
-
         // handlers
         void handle_immediate();
         uint64 handle_delayed(uint64 t_offset);
